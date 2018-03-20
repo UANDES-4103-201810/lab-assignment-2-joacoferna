@@ -1,0 +1,6 @@
+def find_frequency(sentence, word)
+  frequency = sentence.downcase.split.count(word.downcase)
+  return frequency
+end
+
+puts(find_frequency("'Ruby is The best language in the World", "the"))
